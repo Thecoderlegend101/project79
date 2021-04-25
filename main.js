@@ -24,7 +24,7 @@ function addmen() {
     for (k = 0; k < menulist.length; k++) {
     
             htmldata = htmldata + '<div style="background-color: wheat;flex: 0 0 30%;box-sizing: border-box;color:black;margin: 0.5rem .18em;align-items: center;font-size: medium;">' 
-            + '<img src="images/pizzaImg.png"  width="100px", height="80px">' + menulist[k] + '</div>'
+            + '<img src="pizzaImg.png"  width="100px", height="80px">' + menulist[k] + '</div>'
     }
     htmldata = htmldata + '</section'
     document.getElementById('addmen').innerHTML = htmldata;
